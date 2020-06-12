@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="JavaScript\Script.js"></script>
+    <link rel="stylesheet" href="Style\Style.css">
+
+</head>
+
+<body>
+    <div id="add">
+        <h3 id="title"> Amortizacion y deuda $$ </h3>
+
+        <div class="prestamo">
+            Prestamo: <input type="text" id="Prestamo" value="">
+        </div>
+        <div class="interes">
+            Interes anual: <input type="text" id="Interes" value="">
+        </div>
+
+        <div class="plazo">
+            Meses: <input type="text" id="Meses" value="">
+        </div>
+
+        <div class="botones">
+            <button id="calc" type="button" onclick="insertElement()"> Enviar </button>
+            <button id="delate" type="button" onclick="deleteChild()"> Eliminar datos </button>
+        </div>
+    </div>
+
+    <br>
+    <hr color="Green">
+    <br>
+
+    <div class="contenedor">
+        <div id="main">
+            <h1 id="title"> Datos del prestamo por mes</h1>
+            <ul type="i" id="myList">
+    
+            </ol>
+        </div>
+    </div>
+    
+
+</body>
+</html>

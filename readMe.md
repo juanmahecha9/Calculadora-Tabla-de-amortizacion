@@ -1,0 +1,1 @@
+Calculadora de prestamos, enfocada en generar una tabla de amortización del prestamo realizado a n periodo de tiempo 
